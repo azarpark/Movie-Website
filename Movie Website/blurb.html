@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+  </head>
+  <style type="text/css">
+    * {
+      margin:0;
+      padding:0;
+      font-family: Century Gothic;}
+
+    header {
+      background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/pic3.jpg");
+      height: 100vh;
+      background-size:cover;
+      background-position: center;}
+
+    ul {
+      float: right;
+      list-style-type: none;
+      margin-top:25px;}
+
+    ul li {
+      display:inline-block;}
+
+    ul li a{
+      text-decoration:none;
+      color:#ffff99;
+      padding:5px 20px;
+      border:1px solid ;
+      transition:0.6s ease;}
+
+    ul li a:hover {
+      background-color:#ffffcc;
+      color: black;}
+
+    ul li.active a {
+      background-color:#ffffcc;
+      color: black;}
+
+    .logo img{
+      float:left;
+      width:170px;
+      height:auto;}
+
+    .main {
+      max-width:120px;
+      margin:auto;}
+
+    .title {
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);}
+
+    .title h1 {
+      color:#e6be8a;
+      font-size:70px;
+      font-family:verdana;}  
+   
+    .maindiv {
+      width:20%;
+      height:350px;
+      position:absolute;
+      left:50%;
+      top:50%;
+      transform:translate(-50%, -50%);
+      background-image:url("images/pic2.png");
+      background-size:100% 100%;
+      box-shadow:1px 2px 10px #ffffcc; 
+      animation:slider 9s infinite linear; 
+    
+    }
+    
+    
+    
+    @keyframes slider {
+      0%{background-image:url("images/pic2.png");}
+      35%{background-image:url("images/pic5.jpg");}
+      70%{background-image:url("images/pic8.jpeg");}
+      
+    
+    
+    
+  </style>  
+
+  <body>
+    <header>
+      <div class="logo"><img src="images/chinatown%20.png" alt="Image description" /></div>
+
+      <div class= "main"></div>
+      <ul>
+        <li class="active"><a href ="index.html"style="text-decoration:none">Home</a></li>
+        <li><a href ="about.html"style="text-decoration:none">About</a></li>
+        <li><a href ="gallery.html"style="text-decoration:none">Gallery</a></li>
+        <li><a href ="music.html"style="text-decoration:none">Music</a></li>
+        <li><a href ="awards.html"style="text-decoration:none">Awards</a></li> 
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+    <div class="maindiv">
+       
+
+
+      
+      
+      
+      </div>
+     
+      
+      
+      
+      
+    
+      
+      
+      
+      
+      
+
+
+    </header>  
+  </body>
+</html>
